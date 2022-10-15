@@ -20,6 +20,8 @@
 ```Random YouTube Video```
 ```Random Discord Server```
 ```Random Bit.ly Link```
+```Free Nitro```
+```Windows Activator```
 
 ##
 
