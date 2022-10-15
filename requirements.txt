@@ -1,0 +1,5 @@
+pystyle
+colorama
+requests
+urllib.request
+urllib
