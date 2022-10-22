@@ -18,25 +18,6 @@ chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_"
 
 ytb = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-"
 
-port = [":80",
-":8080",
-":3128",
-":4153",
-":8090",
-":8123",
-":8888",
-":3128",
-":1976",
-":44749",
-":3123",
-":9898",
-":999",
-":8118",
-":1080",
-":8081",
-":22",
-":443"]
-
 char = "1234567890"
 
 discordinvchar = "AZERTYUIOPQSDFGHJKLMWXCVBNazertyuiopmlkjhgfdsqwxcvbn123456789"
@@ -72,17 +53,18 @@ def gtproxy():
   out_file.close()
   print()
   Write.Print("•----------•\n", Colors.red_to_blue, interval=0.1000)
-  Write.Print("   The proxies are in proxy.txt", Colors.red_to_blue, interval=0.0025)
+  Write.Print("The proxies are in proxy.txt", Colors.red_to_blue, interval=0.0025)
   Write.Input("", Colors.red_to_blue, interval=0.0025)
 
 def tkgen():
 
     print()
     Write.Print("•----------•\n", Colors.red_to_blue, interval=0.1000)
-    Write.Print("   The tokens are in tokens.txt", Colors.red_to_blue, interval=0.0025)
+    Write.Print("The tokens are in tokens.txt", Colors.red_to_blue, interval=0.0025)
+    Write.Print("\n \n Close the program to stop the generator", Colors.red_to_blue, interval=0.0025)
 
 
-    for i in range (1000):
+    for i in range (9999999999999999999999999999999999):
      first = '' .join((random.choice(chars) for i in range (16))) 
      second = ''.join((random.choice(chars) for i in range(6))) 
      third = ''.join((random.choice(chars) for i in range (27)))
@@ -98,15 +80,16 @@ def ipgen():
 
     print()
     Write.Print("•----------•\n", Colors.red_to_blue, interval=0.1000)
-    Write.Print("   The IP Adress are in IPAdress.txt", Colors.red_to_blue, interval=0.0025)
+    Write.Print("The IP Adress are in IPAdress.txt", Colors.red_to_blue, interval=0.0025)
+    Write.Print("\n \n Close the program to stop the generator", Colors.red_to_blue, interval=0.0025)
 
-    for i in range (1000):
+    for i in range (9999999999999999999999999999999999999):
      first = '' .join((random.choice(char) for i in range (3))) 
      second = ''.join((random.choice(char) for i in range (2))) 
      third = ''.join((random.choice(char) for i in range (2))) 
      four = ''.join((random.choice(char) for i in range (2))) 
 
-     result = first + "." + second + "." + third + "." + four + ((random.choice(port)))
+     result = first + "." + second + "." + third + "." + four
 
      output = open("IPAdress.txt", "a") 
      output.write(result + "\n")
@@ -119,7 +102,7 @@ def discordserver():
     Write.Input("", Colors.red_to_blue, interval=0.0025)
 
 def rytbvideo():
-    for i in range (10):
+    for i in range (1000):
      urlytb = '' .join((random.choice(ytb) for i in range (11))) 
 
      result = "https://www.youtube.com/watch?v=" + urlytb
@@ -129,7 +112,7 @@ def rytbvideo():
      Write.Input("", Colors.red_to_blue, interval=0.0025)
 
 def rdiscordinv():
-    for i in range (10):
+    for i in range (1000):
      discordinv = '' .join((random.choice(discordinvchar) for i in range (discordinvnum))) 
 
      result = "https://discord.gg/" + discordinv
@@ -146,7 +129,7 @@ def nitrofree():
     Write.Input("", Colors.red_to_blue, interval=0.0025)
 
 def rbitly():
-    for i in range (10):
+    for i in range (1000):
      urlytb = '' .join((random.choice(ytb) for i in range (num))) 
 
      result = "https://bit.ly/" + urlytb
@@ -167,7 +150,7 @@ print(
     Colorate.Horizontal(
       Colors.red_to_blue,  """
 
-  ██╗░░██╗███████╗░█████╗░  ████████╗░█████╗░░█████╗░██╗░░░░░░██████╗ V0.1
+  ██╗░░██╗███████╗░█████╗░  ████████╗░█████╗░░█████╗░██╗░░░░░░██████╗ V0.2
   ██║░██╔╝██╔════╝██╔══██╗  ╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░██╔════╝ Made by KFCgamingFR
   █████═╝░█████╗░░██║░░╚═╝  ░░░██║░░░██║░░██║██║░░██║██║░░░░░╚█████╗░
   ██╔═██╗░██╔══╝░░██║░░██╗  ░░░██║░░░██║░░██║██║░░██║██║░░░░░░╚═══██╗
